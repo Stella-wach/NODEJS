@@ -37,7 +37,7 @@ loginUser: async (req, res, next) => {
       if(!isMatch) throw createError.Unauthorized('Username/Password not valid');
 
       
-      res.send()
+      res.send('login successful bitch!!!')
 
 }catch (error){
   if(error.isJoi ===true)
